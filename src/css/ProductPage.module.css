@@ -1,0 +1,319 @@
+.container {
+    min-height: 100vh;
+    background: var(--shopSecondary);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: var(--shopPrimary);
+    cursor: default;
+}
+
+.main {
+    flex: 1;
+    min-height: 100vh;
+    padding: 0 25px 0 75px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.bgStyle {
+    background: #efece9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200%;
+    height: 100%;
+}
+
+.productName {
+    z-index: 2;
+    font-size: 50px;
+    font-family: "Montserrat SemiBold";
+    font-weight: 600;
+    line-height: 64px;
+    pointer-events: none;
+    margin-top: 160px;
+}
+
+.productImage {
+    z-index: 1;
+    -webkit-user-drag: none;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.1s;
+}
+
+.galleryCounter {
+    z-index: 1;
+    position: absolute;
+    bottom: 5.5%;
+    right: 7.5%;
+    font-family: "Montserrat Medium";
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    pointer-events: none;
+}
+
+.galleryCurrentIndex {
+    font-family: "Montserrat Bold";
+    font-weight: 700;
+}
+
+.side {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.squares {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 30vh 0 0;
+}
+
+.square {
+    text-align: center;
+    width: 45px;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-family: "Montserrat Bold";
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.productPrice {
+    font-size: 1.3rem;
+    font-family: "Montserrat Medium";
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 5vh 0 0 0;
+}
+
+.messagePrice {
+    width: 100%;
+    font-size: 1.1rem;
+    font-family: "Montserrat Medium";
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.sizeSelector {
+    width: 100%;
+    font-size: 1.3rem;
+    font-family: "Montserrat Medium";
+    padding-top: 1rem;
+}
+
+.colorSelector {
+    width: 100%;
+    font-size: 1.3rem;
+    font-family: "Montserrat Medium";
+    padding-top: 1rem;
+}
+
+.sizeGroup {
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.colorGroup {
+    padding-top: 0.8rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.size {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.6rem 0.9rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.size.active {
+    border: 3px solid #7d140f;
+}
+
+.negro,
+.blanco {
+    border: 3px solid lightgray;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 0.8rem;
+    position: relative;
+    z-index: 2;
+    box-sizing: content-box;
+}
+
+.negro {
+    background-color: black;
+    z-index: 2;
+}
+
+.blanco {
+    background-color: white;
+    z-index: 2;
+}
+
+.negro.active,
+.blanco.active {
+    border: 3px solid #7d140f;
+}
+
+.buyButtons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 5vh 0;
+}
+
+.addToBag {
+    background: #c9c1b1;
+    border: none;
+    outline: none;
+    color: var(--shopPrimary);
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 55px;
+    font-family: "Montserrat SemiBold";
+    font-weight: 600;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+.addToBag div {
+    height: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.addToBag div :nth-child(1) {
+    position: absolute;
+    top: calc(50% - (0.9rem / 2));
+    left: 0%;
+    width: 100%;
+    height: 0.9rem;
+    overflow: hidden;
+    transition: top 0.2s ease-in;
+}
+
+.addToBag div :nth-child(2) {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    height: 0.9rem;
+    overflow: hidden;
+    transition: top 0.2s ease-in;
+}
+
+.addToBag:hover div :nth-child(1) {
+    top: calc(0% - 0.9rem);
+}
+
+.addToBag:hover div :nth-child(2) {
+    top: calc(50% - (0.9rem / 2));
+}
+
+.buyNow {
+    margin: 0;
+    background: #7d140f;
+    border: none;
+    outline: none;
+    color: var(--shopSecondary);
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 55px;
+    font-family: "Montserrat SemiBold";
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+button:disabled,
+button[disabled] {
+    cursor: not-allowed;
+}
+
+@media (max-width: 780px) {
+    .container {
+        flex-direction: column;
+    }
+    .main {
+        flex: 1;
+        min-height: 50vh;
+        padding: 150px 5vw 5vw;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        width: 100%;
+    }
+    .productName {
+        z-index: 2;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 80%;
+        font-size: 20px;
+        font-family: "Montserrat SemiBold";
+        font-weight: 600;
+        line-height: 32px;
+        pointer-events: none;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .productImage {
+        max-width: 80vw;
+        height: auto;
+        z-index: 1;
+        -webkit-user-drag: none;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.1s;
+    }
+    .side {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2vh;
+        padding: 0 50px 0;
+    }
+    .squares {
+        margin: 50px 0 0;
+    }
+    .productPrice {
+        margin: 8px 0;
+        font-size: 20px;
+    }
+    .messagePrice {
+        display: none;
+    }
+    .buyButtons {
+        margin: 30px 0 30px;
+        width: 90%;
+    }
+    .addToBag {
+        font-size: 0.8rem;
+    }
+    .buyNow {
+        font-size: 0.8rem;
+    }
+    .size.active {
+        border: 2px solid black;
+    }
+}
