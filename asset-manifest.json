@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/op-react-shopping-cart/static/css/main.c82fb824.chunk.css",
+    "main.css": "/op-react-shopping-cart/static/css/main.9965b157.chunk.css",
     "main.js": "/op-react-shopping-cart/static/js/main.dde3c9d9.chunk.js",
     "main.js.map": "/op-react-shopping-cart/static/js/main.dde3c9d9.chunk.js.map",
     "runtime-main.js": "/op-react-shopping-cart/static/js/runtime-main.00243f9f.js",
@@ -12,7 +12,7 @@
     "static/js/3.fffe6d3c.chunk.js.map": "/op-react-shopping-cart/static/js/3.fffe6d3c.chunk.js.map",
     "index.html": "/op-react-shopping-cart/index.html",
     "static/css/2.ed1298f3.chunk.css.map": "/op-react-shopping-cart/static/css/2.ed1298f3.chunk.css.map",
-    "static/css/main.c82fb824.chunk.css.map": "/op-react-shopping-cart/static/css/main.c82fb824.chunk.css.map",
+    "static/css/main.9965b157.chunk.css.map": "/op-react-shopping-cart/static/css/main.9965b157.chunk.css.map",
     "static/js/2.6aca63d7.chunk.js.LICENSE.txt": "/op-react-shopping-cart/static/js/2.6aca63d7.chunk.js.LICENSE.txt",
     "static/media/index.css": "/op-react-shopping-cart/static/media/Montserrat-SemiBold.fa8441f3.ttf",
     "static/media/SKU029_blanco.f157542c.png": "/op-react-shopping-cart/static/media/SKU029_blanco.f157542c.png",
@@ -46,7 +46,7 @@
     "static/js/runtime-main.00243f9f.js",
     "static/css/2.ed1298f3.chunk.css",
     "static/js/2.6aca63d7.chunk.js",
-    "static/css/main.c82fb824.chunk.css",
+    "static/css/main.9965b157.chunk.css",
     "static/js/main.dde3c9d9.chunk.js"
   ]
 }
