@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Rumbero
 
-## Available Scripts
+  <p align="center">
+  <img src="https://img.shields.io/github/v/release/renatogm24/op-react-shopping-cart?label=%20%F0%9F%93%A3%20Latest%20release&style=flat&logoColor=b0c0c0&labelColor=363D44)">
+  <a href="https://renatogm24.github.io/op-react-shopping-cart/">
+      <img src="https://img.shields.io/website?url=https%3A%2F%2Fwww.emprendeadvisor.com%2F">
+  </a>
+    <a href="https://github.com/renatogm24/op-react-shopping-cart">
+      <img src="https://img.shields.io/github/last-commit/renatogm24/op-react-shopping-cart">
+  </a>
+    <img src="https://gpvc.arturio.dev/renatogm24">
+</p>
 
-In the project directory, you can run:
+</h1>
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#development">Development</a> •
+  <a href="#built-with">Built with</a> •
+  <a href="#related">Related</a> •
+  <a href="#license">License</a>
+</p>
+<p align="center">
+  <a href="https://www.emprendeadvisor.com/" target="_blank">
+    <img src="https://github.com/renatogm24/op-react-shopping-cart/blob/master/src/images/salsa2.jpg"
+         alt="Logo banner" width="700px">
+  </a>
+  </p>
 
-### `npm start`
+## Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Responsive design
+- Framer Motion
+  - Animated SVG Logo
+  - Animated buttons
+  - Animated for entry and exit of elements
+- Products by categories
+- Cart functionalities
+- Size and color selectors
+- Generates an automatic purchase order and drift towards whatsapp
+- Carousel of multiple images by product
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## How To Use
 
-### `npm test`
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# Clone this repository
+$ git clone https://github.com/renatogm24/op-react-shopping-cart.git
+# Go into the repository
+$ cd op-react-shopping-cart
+# Install dependencies
+$ npm install
+# Running application
+$ npm run start
+```
 
-### `npm run build`
+Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Development
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Want to contribute? Great!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To fix a bug or enhance an existing module, follow these steps:
 
-### `npm run eject`
+- Fork the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -am 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Bug / Feature Request
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/renatogm24/emprendeadvisor/issues/new) by including your search query and the expected result.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/renatogm24/emprendeadvisor/issues/new). Please include sample queries and their corresponding results.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Built with
 
-## Learn More
+This web app uses the following libraries:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [React 17.02](https://reactjs.org/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [react-responsive-carousel](https://www.npmjs.com/package/react-responsive-carousel)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Related
 
-### Code Splitting
+[rumbero-web](https://renatogm24.github.io/op-react-shopping-cart) - Web of Rumbero
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Support
 
-### Analyzing the Bundle Size
+<a href="https://www.buymeacoffee.com/renatogaray" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+MIT
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Webpage](https://img.shields.io/badge/web-renatogaray.dev-orange)](https://renatogaray.dev)
+[![Follow me on GitHub](https://img.shields.io/badge/github-renatogm24-%23121011.svg?style=flat&logo=github&logoColor=white)](https://github.com/renatogm24)
+[![Follow me on LinkedIn](https://img.shields.io/badge/LinkedIn-renatogaray-blue?style=flat&logo=linkedin&logoColor=b0c0c0&labelColor=363D44)](https://www.linkedin.com/in/renatogaray)
