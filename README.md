@@ -26,7 +26,7 @@ Rumbero
 <p align="center">
   <a href="https://www.emprendeadvisor.com/" target="_blank">
     <img src="https://github.com/renatogm24/op-react-shopping-cart/blob/master/src/images/salsa2.jpg"
-         alt="Logo banner" width="700px">
+         alt="Logo banner" width="500px">
   </a>
   </p>
 
