@@ -4,7 +4,8 @@
 Rumbero
 
   <p align="center">
-  <img src="https://img.shields.io/github/v/release/renatogm24/op-react-shopping-cart?label=%20%F0%9F%93%A3%20Latest%20release&style=flat&logoColor=b0c0c0&labelColor=363D44)">
+    
+  <img src="https://img.shields.io/github/v/release/renatogm24/op-react-shopping-cart">
   <a href="https://renatogm24.github.io/op-react-shopping-cart/">
       <img src="https://img.shields.io/website?url=https%3A%2F%2Fwww.emprendeadvisor.com%2F">
   </a>
