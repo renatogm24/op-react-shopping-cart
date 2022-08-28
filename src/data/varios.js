@@ -284,7 +284,7 @@ const varios = [
     price: 39.0,
     colors: [
       {
-        name: "blanco",
+        name: "blanco2",
         image: SKU842_blanco,
       },
     ],
