@@ -8,6 +8,7 @@ import frankie from "../images/products/frankie.png";
 import ruben from "../images/products/ruben.png";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Link } from "react-router-dom";
 
 const containerVariants = {
   hidden: {
@@ -75,83 +76,18 @@ const ProductPage = (props) => {
       </main>
       <aside className={styles.side}>
         <h1 className={styles.productName}>{product.name}</h1>
-        <div className={styles.productPrice}>{format(product.price)}</div>
-        <div className={styles.messagePrice}>
-          Impuesto incluido. Los gastos de envío se calculan en la pantalla de
-          pagos.
-        </div>
-        <div className={styles.sizeSelector}>
-          TALLA
-          <div className={styles.sizeGroup}>
-            <motion.div
-              whileHover={{ scale: 1.1, originX: 0 }}
-              transition={{ type: "spring", stiffness: 1000 }}
-              className={`${styles.size} ${size === "S" ? styles.active : ""}`}
-              onClick={() => {
-                setSize("S");
-              }}
-            >
-              S
-            </motion.div>
-            <motion.div
-              whileHover={{ scale: 1.1, originX: 0 }}
-              transition={{ type: "spring", stiffness: 1000 }}
-              className={`${styles.size} ${size === "M" ? styles.active : ""}`}
-              onClick={() => {
-                setSize("M");
-              }}
-            >
-              M
-            </motion.div>
-            <motion.div
-              whileHover={{ scale: 1.1, originX: 0 }}
-              transition={{ type: "spring", stiffness: 1000 }}
-              className={`${styles.size} ${size === "L" ? styles.active : ""}`}
-              onClick={() => {
-                setSize("L");
-              }}
-            >
-              L
-            </motion.div>
-            <motion.div
-              whileHover={{ scale: 1.1, originX: 0 }}
-              transition={{ type: "spring", stiffness: 1000 }}
-              className={`${styles.size} ${size === "XL" ? styles.active : ""}`}
-              onClick={() => {
-                setSize("XL");
-              }}
-            >
-              XL
-            </motion.div>
-          </div>
-        </div>
-        <div className={styles.colorSelector}>
-          COLOR
-          <div className={styles.colorGroup}>
-            {product.colors.map((element) => {
-              return (
-                <motion.div
-                  whileHover={{ scale: 1.1, originX: 0 }}
-                  transition={{ type: "spring", stiffness: 1000 }}
-                  className={`${styles[element.name]} ${
-                    color === element.name ? styles.active : ""
-                  }`}
-                  onClick={() => {
-                    setColor(element.name);
-                  }}
-                ></motion.div>
-              );
-            })}
-          </div>
+        <div className={styles.youtube}>
+          <iframe class="responsive-iframe" src={product.video} allowFullScreen></iframe>
         </div>
         <div className={styles.buyButtons}>
-          <button
-            disabled={size === "" || color === ""}
-            onClick={addToCart}
+        <Link to="/op-react-shopping-cart/catalog">
+        <button
             className={styles.buyNow}
           >
-            Añadir al carrito
+            Volver a saludos
           </button>
+            </Link>
+          
         </div>
       </aside>
     </motion.div>

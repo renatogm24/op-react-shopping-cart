@@ -140,7 +140,7 @@
 
 .svgRumbero {
     z-index: 8;
-    width: 160px;
+    width: 60px;
     height: 50px;
     overflow: visible;
     stroke: #fff;
@@ -148,6 +148,7 @@
     stroke-linejoin: round;
     stroke-linecap: round;
     background-color: none;
+    transform-origin: 70px -100px !important;
 }
 
 header .button-svg {
@@ -164,5 +165,8 @@ header .button-svg {
     .nav {
         width: 100%;
         justify-content: space-around;
+    }
+    .svgRumbero {
+        transform-origin: -100px -130px !important;
     }
 }

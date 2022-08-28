@@ -3,6 +3,6 @@ import rubenblades from "./rubenblades";
 import frankieruiz from "./frankieruiz";
 import varios from "./varios";
 
-const products = [...hectorlavoe, ...rubenblades, ...frankieruiz, ...varios];
+const products = [...varios];
 
 export default products;

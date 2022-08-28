@@ -54,12 +54,12 @@ const ShopPage = (props) => {
       <div className={styles.wrapper}>
         <aside className={styles.side}>
           <div className={styles.sideTitleContainer}>
-            <div className={styles.sideTitleShop}>Tienda /</div>
+            <div className={styles.sideTitleShop}>SaludOxis /</div>
             <h1 className={styles.sideTitle}>
               <Switch>
                 <Route exact path="/op-react-shopping-cart/catalog">
                   <span>Todos los</span>
-                  Productos
+                  Saludos
                 </Route>
                 <Route exact path="/op-react-shopping-cart/catalog/:categoryId">
                   {category && category.name}
@@ -68,21 +68,8 @@ const ShopPage = (props) => {
             </h1>
           </div>
           <ul className={styles.categories}>
-            {categories.map((category) => (
-              <Link
-                to={`/op-react-shopping-cart/catalog/${category.id}`}
-                className={styles.categoryLink}
-                key={category.id}
-              >
-                <motion.li
-                  className={styles.category}
-                  whileHover={{ scale: 1.3, originX: 0, color: "#7D140F" }}
-                  transition={{ type: "spring", stiffness: 300 }}
-                >
-                  {category.name}
-                </motion.li>
-              </Link>
-            ))}
+            <p>A continuacion puedes encontrar todos los saludos a modo de
+            adivinanza</p>
           </ul>
         </aside>
         <main className={styles.main}>
@@ -109,9 +96,6 @@ const ShopPage = (props) => {
                           />
                         </div>
                         <div className={styles.productName}>{product.name}</div>
-                        <div className={styles.productPrice}>
-                          {format(product.price)}
-                        </div>
                       </Link>
                     </li>
                   ))}
