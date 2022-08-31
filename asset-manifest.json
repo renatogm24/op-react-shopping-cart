@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/op-react-shopping-cart/static/css/main.96932e37.chunk.css",
+    "main.css": "/op-react-shopping-cart/static/css/main.28593f05.chunk.css",
     "main.js": "/op-react-shopping-cart/static/js/main.3ee6b601.chunk.js",
     "main.js.map": "/op-react-shopping-cart/static/js/main.3ee6b601.chunk.js.map",
     "runtime-main.js": "/op-react-shopping-cart/static/js/runtime-main.00243f9f.js",
@@ -12,7 +12,7 @@
     "static/js/3.fffe6d3c.chunk.js.map": "/op-react-shopping-cart/static/js/3.fffe6d3c.chunk.js.map",
     "index.html": "/op-react-shopping-cart/index.html",
     "static/css/2.ed1298f3.chunk.css.map": "/op-react-shopping-cart/static/css/2.ed1298f3.chunk.css.map",
-    "static/css/main.96932e37.chunk.css.map": "/op-react-shopping-cart/static/css/main.96932e37.chunk.css.map",
+    "static/css/main.28593f05.chunk.css.map": "/op-react-shopping-cart/static/css/main.28593f05.chunk.css.map",
     "static/js/2.006bc935.chunk.js.LICENSE.txt": "/op-react-shopping-cart/static/js/2.006bc935.chunk.js.LICENSE.txt",
     "static/media/1.23cf3a83.jpeg": "/op-react-shopping-cart/static/media/1.23cf3a83.jpeg",
     "static/media/10.5ee45c05.jpeg": "/op-react-shopping-cart/static/media/10.5ee45c05.jpeg",
@@ -54,20 +54,20 @@
     "static/media/SKU552_blanco.2bafeb68.png": "/op-react-shopping-cart/static/media/SKU552_blanco.2bafeb68.png",
     "static/media/SKU842_blanco.9c56f748.png": "/op-react-shopping-cart/static/media/SKU842_blanco.9c56f748.png",
     "static/media/asustado.4759b179.gif": "/op-react-shopping-cart/static/media/asustado.4759b179.gif",
+    "static/media/HomePage.module.css": "/op-react-shopping-cart/static/media/chicago2.81567d75.jpeg",
     "static/media/frankie.859e1fcf.png": "/op-react-shopping-cart/static/media/frankie.859e1fcf.png",
     "static/media/lavoe.ddbd135c.png": "/op-react-shopping-cart/static/media/lavoe.ddbd135c.png",
     "static/media/mama2.5add5b9e.jpeg": "/op-react-shopping-cart/static/media/mama2.5add5b9e.jpeg",
     "static/media/papa.7251a91d.gif": "/op-react-shopping-cart/static/media/papa.7251a91d.gif",
     "static/media/pikachu.6c16a745.jpg": "/op-react-shopping-cart/static/media/pikachu.6c16a745.jpg",
     "static/media/ruben.8e9fe8d7.png": "/op-react-shopping-cart/static/media/ruben.8e9fe8d7.png",
-    "static/media/HomePage.module.css": "/op-react-shopping-cart/static/media/salsa2.7addc78e.jpg",
     "static/media/vane1.48f10ac1.gif": "/op-react-shopping-cart/static/media/vane1.48f10ac1.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.00243f9f.js",
     "static/css/2.ed1298f3.chunk.css",
     "static/js/2.006bc935.chunk.js",
-    "static/css/main.96932e37.chunk.css",
+    "static/css/main.28593f05.chunk.css",
     "static/js/main.3ee6b601.chunk.js"
   ]
 }
