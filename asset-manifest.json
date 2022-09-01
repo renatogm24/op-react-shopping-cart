@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/op-react-shopping-cart/static/css/main.588e0b0c.chunk.css",
-    "main.js": "/op-react-shopping-cart/static/js/main.0bf245d4.chunk.js",
-    "main.js.map": "/op-react-shopping-cart/static/js/main.0bf245d4.chunk.js.map",
+    "main.js": "/op-react-shopping-cart/static/js/main.0fe71683.chunk.js",
+    "main.js.map": "/op-react-shopping-cart/static/js/main.0fe71683.chunk.js.map",
     "runtime-main.js": "/op-react-shopping-cart/static/js/runtime-main.00243f9f.js",
     "runtime-main.js.map": "/op-react-shopping-cart/static/js/runtime-main.00243f9f.js.map",
     "static/css/2.ed1298f3.chunk.css": "/op-react-shopping-cart/static/css/2.ed1298f3.chunk.css",
@@ -23,6 +23,7 @@
     "static/media/15.3864652f.jpeg": "/op-react-shopping-cart/static/media/15.3864652f.jpeg",
     "static/media/16.a0b55e90.jpeg": "/op-react-shopping-cart/static/media/16.a0b55e90.jpeg",
     "static/media/17.b0a40092.jpeg": "/op-react-shopping-cart/static/media/17.b0a40092.jpeg",
+    "static/media/18.b9459004.jpeg": "/op-react-shopping-cart/static/media/18.b9459004.jpeg",
     "static/media/2.c1b2a749.jpeg": "/op-react-shopping-cart/static/media/2.c1b2a749.jpeg",
     "static/media/4.2f3f0af8.jpeg": "/op-react-shopping-cart/static/media/4.2f3f0af8.jpeg",
     "static/media/6.7c7fee34.jpeg": "/op-react-shopping-cart/static/media/6.7c7fee34.jpeg",
@@ -88,6 +89,6 @@
     "static/css/2.ed1298f3.chunk.css",
     "static/js/2.47ea1bc8.chunk.js",
     "static/css/main.588e0b0c.chunk.css",
-    "static/js/main.0bf245d4.chunk.js"
+    "static/js/main.0fe71683.chunk.js"
   ]
 }
